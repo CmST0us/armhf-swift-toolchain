@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "sdk": "/Library/Developer/Runtimes/swift-5.8.1-runtime-armhf-linux/",
+    "sysroot-flag": "/Library/Developer/Runtimes/swift-5.8.1-runtime-armhf-linux/",
+    "toolchain-bin-dir": "/Library/Developer/Toolchains/swift-5.8.1-RELEASE.xctoolchain/usr/bin",
+    "target": "armv7-unknown-linux-gnueabihf",
+    "dynamic-library-extension": "so",
+    "extra-cc-flags": [
+        "--sysroot=/Library/Developer/Runtimes/swift-5.8.1-runtime-arm-linux-gnueabihf/toolchain/arm-linux-gnueabihf/libc",
+    ],
+    "extra-swiftc-flags": [
+        "-target", "armv7-unknown-linux-gnueabihf",
+        "-use-ld=/Library/Developer/Runtimes/swift-5.8.1-runtime-arm-linux-gnueabihf/armv7-unknown-linux-gnueabihf/bin/armv7-linux-gnueabihf-ld.gold",
+        "-tools-directory", "/Library/Developer/Runtimes/swift-5.8.1-runtime-arm-linux-gnueabihf/toolchain/lib/gcc/arm-linux-gnueabihf/12.3.1",
+        "-sdk", "/Library/Developer/Runtimes/swift-5.8.1-runtime-arm-linux-gnueabihf/toolchain/arm-linux-gnueabihf/libc",
+        "-resource-dir", "/Library/Developer/Runtimes/swift-5.8.1-runtime-arm-linux-gnueabihf/usr/lib/swift",
+        "-L", "/Library/Developer/Runtimes/swift-5.8.1-runtime-arm-linux-gnueabihf/toolchain/lib/gcc/arm-linux-gnueabihf/12.3.1/"
+    ],
+    "extra-cpp-flags": [
+        "--sysroot=/Library/Developer/Runtimes/swift-5.8.1-runtime-arm-linux-gnueabihf/toolchain/arm-linux-gnueabihf/libc",
+    ],
+}
