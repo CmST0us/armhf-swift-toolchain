@@ -3,7 +3,7 @@ Swift Toolchian for arm-linux-gnueabihf
 
 # How to install in macOS host
 
-Firstly you need to install official swift version `5.8.1`, download it from (https://swift.org)[https://swift.org]
+Firstly you need to install official swift version `5.8.1`, download it from https://swift.org
 
 Create `Destinations` folder in `/Library/Developer` if there is not exist.
 
