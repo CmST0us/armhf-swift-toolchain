@@ -50,5 +50,11 @@ swift build --destination /Library/Developer/Destinations/arm-none-linux-gnueabi
 After building success, you can upload binary to you target device, and run it.
 
 
+# Cxx Support
+
+**Cxx Support is disabled**
+
+
+
 --------------
 `Have fun and play with Swift!`
