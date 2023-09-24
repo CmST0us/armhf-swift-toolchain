@@ -1,6 +1,11 @@
 # armhf-swift-toolchain
 Swift Toolchian for arm-linux-gnueabihf
 
+# Current support Swift version
+
+* `5.8.1`
+* `5.9`
+
 # How to install in macOS host
 
 Firstly you need to install official swift version `5.8.1`, download it from https://swift.org
@@ -19,7 +24,7 @@ Decompression file `swift-5.8.1-runtime-arm-none-linux-gnueabihf` into `/Library
 
 ```
 mkdir -p /Library/Developer/Runtimes/swift-5.8.1-runtime-arm-none-linux-gnueabihf
-tar xf swift-5.8.1-runtime-arm-none-linux-gnueabihf.tar.xz -C /Library/Developer/Runtimes/swift-5.8.1-runtime-arm-none-linux-gnueabihf
+tar xf swift-5.8.1-runtime-arm-none-linux-gnueabihf.tar.xz -C /Library/Developer/Runtimes/
 ```
 
 # How to install runtime in linux target
