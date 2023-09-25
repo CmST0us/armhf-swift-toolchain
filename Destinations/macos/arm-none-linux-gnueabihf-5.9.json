@@ -7,6 +7,8 @@
     "dynamic-library-extension": "so",
     "extra-cc-flags": [
         "--sysroot=/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/libc",
+        "-isystem", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/include/c++/12.3.1",
+        "-isystem", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/include/c++/12.3.1/arm-none-linux-gnueabihf"
     ],
     "extra-swiftc-flags": [
         "-target", "armv7-unknown-linux-gnueabihf",
