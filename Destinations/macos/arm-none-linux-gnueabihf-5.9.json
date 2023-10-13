@@ -7,16 +7,16 @@
     "dynamic-library-extension": "so",
     "extra-cc-flags": [
         "--sysroot=/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/libc",
-        "-isystem", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/include/c++/12.3.1",
-        "-isystem", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/include/c++/12.3.1/arm-none-linux-gnueabihf"
+        "-isystem", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/include/c++/11.2.1",
+        "-isystem", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/include/c++/11.2.1/arm-none-linux-gnueabihf"
     ],
     "extra-swiftc-flags": [
         "-target", "armv7-unknown-linux-gnueabihf",
         "-use-ld=/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/linker/macos_arm64/ld.gold",
-        "-tools-directory", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/lib/gcc/arm-none-linux-gnueabihf/12.3.1",
+        "-tools-directory", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/lib/gcc/arm-none-linux-gnueabihf/11.2.1",
         "-sdk", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/libc",
         "-resource-dir", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/usr/lib/swift",
-        "-L", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/lib/gcc/arm-none-linux-gnueabihf/12.3.1/"
+        "-L", "/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/lib/gcc/arm-none-linux-gnueabihf/11.2.1/"
     ],
     "extra-cpp-flags": [
         "--sysroot=/Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf/toolchain/arm-none-linux-gnueabihf/libc",
