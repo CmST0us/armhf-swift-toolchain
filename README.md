@@ -17,13 +17,13 @@ Create `Runtimes` folder in `/Library/Developer` if there is not exist
 `mkdir -p /Library/Developer/Runtimes`
 
 Copy destinations file
-`cp Destinations/macos/arm-none-linux-gnueabihf-5.9.json /Library/Developer/Destinations`
+`cp Destinations/macos/arm-none-linux-gnueabihf-*.json /Library/Developer/Destinations`
 
 Decompression file `swift-5.9-runtime-arm-none-linux-gnueabihf` into `/Library/Developer/Runtimes` 
 
 ```
 mkdir -p /Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf
-tar xf swift-5.9-runtime-arm-none-linux-gnueabihf.tar.xz -C /Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf
+tar xf swift-5.9-runtime-arm-none-linux-gnueabihf.tar.gz -C /Library/Developer/Runtimes/swift-5.9-runtime-arm-none-linux-gnueabihf
 ```
 
 # How to install runtime in linux target
@@ -44,6 +44,12 @@ Create an example project
 ```
 swift package init --type executable
 swift build --destination /Library/Developer/Destinations/arm-none-linux-gnueabihf-5.9.json
+```
+
+Build Static
+```
+swift package init --type executable
+swift build --destination /Library/Developer/Destinations/arm-none-linux-gnueabihf-5.9-static.json --static-swift-stdlib
 ```
 
 After building success, you can upload binary to you target device, and run it.
