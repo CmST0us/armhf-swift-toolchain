@@ -3,7 +3,6 @@ Swift Toolchian for arm-linux-gnueabihf
 
 # Current support Swift version
 
-* `5.8.1`
 * `5.9` (recommend)
 
 # How to install in macOS host
